@@ -164,6 +164,10 @@ footer {
     color: #969BAB;
 }
 
+.social_icons ul li a:hover {
+    color: black;
+}
+
 /* News Area */
 .blogs{
     display: flex;
@@ -181,7 +185,7 @@ footer {
 
 .blog_photo img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .blog_details {
@@ -214,4 +218,33 @@ footer {
 .blog:hover .blog_photo{
     transform: scale(1.5) rotate(360deg) ;
     transition: transform 2s ease-in-out;
+}
+
+
+/* About CSS */
+
+.abouts {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 65px;
+}
+
+.about {
+    text-align: center;
+    border: 2px solid #ddd;
+    padding: 10px;
+}
+
+.about_icon {
+    font-size: 20px;
+}
+
+.about:hover {color: #fff;
+    background-color: #000;
+    opacity: .7;
+    transition:background-color 1s;}
+
+.about:hover p{
+    color: #fff;
+    transition: 1s;
 }
