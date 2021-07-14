@@ -1,0 +1,55 @@
+/* Common Css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.anchor_button {
+    color: #fff;
+    background-color: #e02c6d;
+    text-decoration: none;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.anchor_button i {
+    padding-left: 8px;
+}
+
+.anchor_button:hover {
+    color: #ffffffad;
+}
+
+
+/* banner css */
+.banner {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 140px;
+    padding: 86px 0;
+}
+
+.banner_right img {
+    width: 556px;
+    height: 438px;
+}
+
+.banner_title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #fff;
+}
+
+header {
+    background-color: #2d25a0;
+}
+
+.banner:hover .banner_right img {
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: transform ease-in-out 2s;
+}
