@@ -1,4 +1,6 @@
-/* Common Css */
+/*--------------------------
+        Common Css 
+--------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body{
@@ -41,7 +43,6 @@ h3 {
     margin: 10px 0;
 }
 
-
 h2 {
     font-size: 48px;
     line-height: 60px;
@@ -54,7 +55,6 @@ p {
     color: #6C6C6C;
 }
 
-
 .section_title {
     text-align: center;
     margin-bottom: 40px;
@@ -63,7 +63,11 @@ p {
 hr {
     width: 600px;
 }
-/* banner css */
+
+
+/*--------------------------
+        Banner Css 
+--------------------------*/
 
 
 header {
@@ -94,8 +98,9 @@ header {
     transition: transform ease-in-out 2s;
 }
 
-
-/* Player CSS */
+/*--------------------------
+        Player Css 
+--------------------------*/
 
 .players {
     display: grid;
@@ -115,7 +120,9 @@ header {
     height: 256px;
 }
 
-/* HighLights Area */
+/*--------------------------
+        HighLights Css 
+--------------------------*/
 
 .highlights {
     display: flex;
@@ -136,8 +143,10 @@ header {
     margin-left: 100px;
 }
 
+/*--------------------------
+        Footer Css 
+--------------------------*/
 
-/* Footer */
 footer {
     display: flex;
     flex-direction: column;
@@ -168,7 +177,10 @@ footer {
     color: black;
 }
 
-/* News Area */
+/*--------------------------
+        Blog Area Css 
+--------------------------*/
+
 .blogs{
     display: flex;
 }
@@ -220,8 +232,9 @@ footer {
     transition: transform 2s ease-in-out;
 }
 
-
-/* About CSS */
+/*--------------------------
+        About Css 
+--------------------------*/
 
 .abouts {
     display: grid;
@@ -249,7 +262,9 @@ footer {
     transition: 1s;
 }
 
-/* Media Query */
+/*--------------------------
+        Media Query Css 
+--------------------------*/
 
 /* Mobile Device */
 @media only screen and (max-width:688px ) {
